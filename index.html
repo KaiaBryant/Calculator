@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script defer src="calc.js"></script> -->
+    <title>Calculator</title>
+</head>
+
+<body>
+    <main>
+        <h1 class="myCalc">Calculator</h1>
+        <div id="calculator">
+            <input class="inputDisplay" type="text" placeholder="0" />
+
+            <div class="calcBtns">
+                <!-- Memory Clear -->
+                <button id="backSpace" class="mcBtn">⌫</button>
+                <button class="sevenBtn" data-input="7">7</button>
+                <button class="eightBtn" data-input="8">8</button>
+                <button class="nineBtn" data-input="9">9</button>
+                <button class="divideBtn" data-operator="/">÷</button>
+
+                <button id="percentageBtn" class="percentageBtn">%</button>
+                <button class="fourBtn" data-input="4">4</button>
+                <button class="fiveBtn" data-input="5">5</button>
+                <button class="sixBtn" data-input="6">6</button>
+                <button class="multiplyBtn" data-operator="*">*</button>
+
+                <button class="exponentBtn" data-operator="**">^</button>
+                <button class="oneBtn" data-input="1">1</button>
+                <button class="twoBtn" data-input="2">2</button>
+                <button class="threeBtn" data-input="3">3</button>
+                <button class="minusBtn " data-operator="-">−</button>
+
+                <button id="clearBtn" class="clearBtn">AC</button>
+                <button class="zeroBtn" data-input="0">0</button>
+                <button class="decimalBtn" data-input=".">.</button>
+                <button id="equalsBtn" class="equalBtn">=</button>
+                <button class="plusBtn" data-operator="+">+</button>
+            </div>
+        </div>
+    </main>
+    <script src="calc.js"></script>
+</body>
+
+</html>
